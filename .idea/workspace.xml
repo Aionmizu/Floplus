@@ -4,53 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/aot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/blackclover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bleach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/dbz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/deathnote.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/demonslayer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/fma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hxh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/jujutsu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/mha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/naruto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/onepiece.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/rezero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/sao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tokyoghoul.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/videoplayback.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Structure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flo_plus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/dark-mode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/anime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/classes/Anime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/classes/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/classes/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/handlers/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/handlers/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/handlers/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/seed.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/responsive.css" afterDir="false" />
+    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.1.1">
+      <change beforePath="$PROJECT_DIR$/components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +50,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -107,6 +61,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/wamp64/www/flo_plus/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -160,7 +115,7 @@
       <workItem from="1736769032700" duration="5080000" />
       <workItem from="1736853354096" duration="2972000" />
       <workItem from="1737968101194" duration="8951000" />
-      <workItem from="1737977157405" duration="6611000" />
+      <workItem from="1737977157405" duration="8003000" />
     </task>
     <task id="LOCAL-00001" summary="Projet V0.1">
       <option name="closed" value="true" />
@@ -170,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737983242262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Projet V0.1">
+      <option name="closed" value="true" />
+      <created>1737984887592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737984887592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Projet V0.1.1">
+      <option name="closed" value="true" />
+      <created>1737985022842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737985022842</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projet V0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projet V0.1" />
+    <MESSAGE value="Projet V0.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projet V0.1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
