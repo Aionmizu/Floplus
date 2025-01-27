@@ -19,7 +19,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         } else {
             echo 'Email ou mot de passe incorrect.';
+            echo '<br><br>';
+            echo '<button
+                    style="
+                        background-color: #e573ff;
+                        color: #ffffff;
+                        padding: 10px 15px;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    "
+                    onclick="history.back()"
+                >
+                Retour
+                </button>';
         }
+
     } catch (PDOException $e) {
         echo 'Erreur : ' . $e->getMessage();
     }

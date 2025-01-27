@@ -44,7 +44,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <?php if (isset($error)): ?>
                 <p class="error-message"><?php echo $error; ?></p>
+                <!-- Bouton pour revenir à la page précédente -->
             <?php endif; ?>
+
         </form>
 
         <div class="auth-links">
