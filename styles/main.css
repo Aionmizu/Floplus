@@ -1,0 +1,686 @@
+/* Import d’une police plus moderne et "anime friendly" */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Styles globaux */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* Fond sombre */
+    color: #cccccc; /* Texte gris clair */
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #e573ff; /* Couleur de lien plus vibrante */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff9cff; /* Lien plus clair au survol */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #121212;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
+
+.navbar a {
+    color: #cccccc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.navbar a:hover {
+    background-color: #e573ff;
+    transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+    padding: 8px 15px;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: rotate(10deg) scale(1.05);
+}
+
+/* Section principale : vidéo mise en avant */
+.intro-video {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 74px);
+    overflow: hidden;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border:none; <-- pas nécessaire pour une vidéo, mais vous pouvez le laisser si vous le souhaitez */
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.video-overlay h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+.video-overlay p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+
+/* Catalogue */
+.catalog {
+    padding: 40px 0;
+    background-color: #0d0d0d;
+    min-height: calc(100vh - 162px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.catalog-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Cartes */
+.card {
+    display: flex;
+    max-width: 200px;
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.content-cards .card {
+    background-color: #1f1f1f;
+}
+
+
+/*Grille d'animé */
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Images d’anime */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #141414;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Texte des cartes */
+.card h3 {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #cccccc;
+    margin: 5px 0 0 0;
+}
+
+/* Effet au survol */
+
+
+.card:hover {
+    transform: scale(1.05);  /* Zoom léger */
+    background-color: #292929; /* Fond plus sombre au survol */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8);
+}
+
+
+/* Barre de recherche */
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #bbb;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e573ff;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-button:hover {
+    background-color: #ff9cff;
+    transform: scale(1.05);
+}
+
+/* Pied de page */
+.footer {
+    background-color: #121212;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    color: #cccccc;
+    position: relative;
+}
+
+/* Effet neon sur quelques textes/éléments */
+.neon-text {
+    color: #e573ff;
+    text-shadow: 0 0 5px #ff9cff, 0 0 10px #ff9cff;
+}
+
+/* Effet "bounce" au survol */
+.bounce:hover {
+    animation: bounce 0.8s;
+}
+
+@keyframes bounce {
+    0%, 20%, 53%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40%, 43% {
+        transform: translateY(-8px);
+    }
+    70% {
+        transform: translateY(-4px);
+    }
+    90% {
+        transform: translateY(-2px);
+    }
+}
+
+/* =========================================
+   Formulaires d'authentification (login, register)
+   ========================================= */
+
+/* Section conteneur */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #0d0d0d; /* même fond sombre */
+    min-height: calc(100vh - 162px); /* Ajuster si besoin */
+}
+
+/* Titres de page (Connexion, Inscription) */
+.auth-container h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Formulaire */
+.auth-form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.auth-form label {
+    margin: 10px 0 5px 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Champs de saisie */
+.auth-form input[type="email"],
+.auth-form input[type="password"],
+.auth-form input[type="text"] {
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form input[type="email"]::placeholder,
+.auth-form input[type="password"]::placeholder,
+.auth-form input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+.auth-form input[type="email"]:focus,
+.auth-form input[type="password"]:focus,
+.auth-form input[type="text"]:focus {
+    background-color: #444;
+}
+
+/* Bouton de soumission */
+.auth-form button[type="submit"] {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e573ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.auth-form button[type="submit"]:hover {
+    background-color: #ff9cff;
+    transform: scale(1.05);
+}
+
+/* Message d’erreur */
+.error-message {
+    margin-top: 15px;
+    color: #ff5f5f;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Liens (vers 'S'inscrire' ou 'Se connecter') */
+.auth-links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.auth-links a {
+    color: #e573ff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.auth-links a:hover {
+    color: #ff9cff;
+}
+
+/* ============================
+   Dashboard Container
+   ============================ */
+.dashboard-container {
+    background-color: #0d0d0d; /* Fond sombre */
+    min-height: calc(100vh - 162px); /* Ajustez si besoin */
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ============================
+   Section "Bienvenue"
+   ============================ */
+.user-welcome {
+    background-color: #1f1f1f;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.user-welcome h1 {
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.user-welcome p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin: 0;
+}
+
+/* Label du rôle utilisateur */
+.role-tag {
+    color: #e573ff;
+    font-weight: 600;
+}
+
+/* ============================
+   Section Admin
+   ============================ */
+.admin-section {
+    background-color: #1f1f1f;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+}
+
+.admin-section h2 {
+    margin-top: 0;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+/* Barre de recherche + bouton toggle */
+.user-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.user-search input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+}
+
+.user-search input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+/* Bouton "Replier / Déplier" */
+.user-search button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #e573ff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.user-search button:hover {
+    background-color: #ff9cff;
+    transform: scale(1.05);
+}
+
+/* ============================
+   Tableau d'utilisateurs
+   ============================ */
+.table-container {
+    overflow-x: auto; /* Pour permettre le scroll horizontal si trop de colonnes */
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1f1f1f; /* Couleur de fond du tableau */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.admin-table thead {
+    background-color: #2c2c2c;
+}
+
+.admin-table thead tr th {
+    padding: 12px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid #444;
+}
+
+.admin-table tbody tr td {
+    padding: 12px;
+    color: #cccccc;
+    border-bottom: 1px solid #333;
+    vertical-align: middle;
+}
+
+/* Effet au survol des lignes */
+.admin-table tbody tr:hover {
+    background-color: #292929;
+}
+
+/* ============================
+   Non-admin : accès limité
+   ============================ */
+.no-access {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ff5f5f;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+}
+
+
+/* ============================
+   Container principal
+   ============================ */
+.dashboard-container {
+    background-color: #0d0d0d;
+    min-height: calc(100vh - 162px);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ============================
+   Section "Vos 3 animés préférés"
+   ============================ */
+.anime-section {
+    background-color: #1f1f1f;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.anime-section h2 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.anime-section label {
+    display: block;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.anime-section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+}
+
+.anime-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e573ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.anime-section button:hover {
+    background-color: #ff9cff;
+}
+
+/* Messages de succès / erreur */
+.success-msg {
+    margin-top: 10px;
+    color: #7fff7f;
+}
+.error-msg {
+    margin-top: 10px;
+    color: #ff5f5f;
+}
+
+/* ============================
+   Section Admin
+   ============================ */
+.admin-section {
+    background-color: #1f1f1f;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+}
+
+.admin-section h2 {
+    color: #ffffff;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-table thead {
+    background-color: #2c2c2c;
+}
+
+.admin-table thead tr th {
+    padding: 12px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid #444;
+}
+
+.admin-table tbody tr td {
+    padding: 12px;
+    color: #cccccc;
+    border-bottom: 1px solid #333;
+    vertical-align: middle;
+}
+
+/* Bouton de suppression "-" */
+.delete-btn {
+    background-color: #ff5f5f;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.delete-btn:hover {
+    background-color: #ff8f8f;
+}
+
+/* ============================
+   Non-admin : accès limité
+   ============================ */
+.no-access {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ff5f5f;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+}
+
+
+
+
+

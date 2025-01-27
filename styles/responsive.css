@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .intro-video {
+        height: 40vh;
+    }
+
+    .video-overlay h1 {
+        font-size: 2rem;
+    }
+
+    .video-overlay p {
+        font-size: 1rem;
+    }
+
+    .catalog-sections {
+        flex-direction: column;
+    }
+
+    .content-cards .card {
+        width: 100%;
+    }
+
+    .card img {
+        max-width: 150px;
+    }
+
+    .search-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-input {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .search-button {
+        border-radius: 30px;
+    }
+    .auth-container {
+        padding: 20px;
+        min-height: auto; /* vous pouvez adapter si vous voulez */
+    }
+
+    .auth-form {
+        padding: 20px;
+    }
+
+    .auth-form button[type="submit"] {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .dashboard-container {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .user-welcome, .admin-section {
+        padding: 15px;
+    }
+
+    .user-welcome h1 {
+        font-size: 1.8rem;
+    }
+
+    .user-welcome p {
+        font-size: 1rem;
+    }
+
+    .admin-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .user-search button {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .admin-table thead tr th,
+    .admin-table tbody tr td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .dashboard-container {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .anime-section,
+    .admin-section {
+        padding: 15px;
+    }
+
+    .anime-section label {
+        margin-top: 10px;
+    }
+
+    .admin-table thead tr th,
+    .admin-table tbody tr td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
