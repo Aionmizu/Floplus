@@ -1,5 +1,5 @@
 <footer class="footer">
-    <p>&copy; 2025 Mini-Plateforme de Streaming, Projet scolaire - non lucratif.</p>
+    <p>&copy; 2025 Mini-Plateforme de Streaming, Projet scolaire - Non lucratif.</p>
     <p>
         <a href="terms.php">Conditions d'utilisation</a> |
         <a href="privacy.php">Politique de confidentialité</a>
