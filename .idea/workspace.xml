@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.1.2">
-      <change afterPath="$PROJECT_DIR$/pages/anime_detail.php" afterDir="false" />
+    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.1.3 addition d'animé détail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/anime.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/anime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,7 @@
       <workItem from="1736769032700" duration="5080000" />
       <workItem from="1736853354096" duration="2972000" />
       <workItem from="1737968101194" duration="8951000" />
-      <workItem from="1737977157405" duration="12983000" />
+      <workItem from="1737977157405" duration="13666000" />
     </task>
     <task id="LOCAL-00001" summary="Projet V0.1">
       <option name="closed" value="true" />
@@ -161,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737989433941</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Projet V0.1.3 addition d'animé détail">
+      <option name="closed" value="true" />
+      <created>1737992995573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737992995573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +180,8 @@
     <MESSAGE value="Projet V0.1" />
     <MESSAGE value="Projet V0.1.1" />
     <MESSAGE value="Projet V0.1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projet V0.1.2" />
+    <MESSAGE value="Projet V0.1.3 addition d'animé détail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projet V0.1.3 addition d'animé détail" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

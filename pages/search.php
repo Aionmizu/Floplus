@@ -34,9 +34,11 @@ $animes = $animeClass->getAllAnimes();
                     if (!empty($results)) {
                         foreach ($results as $anime) {
                             echo '<div class="card">';
+                            echo '<a href="anime_detail.php?id=' . $anime['id'] . '" class="card-link">';
                             echo '<img src="../assets/images/' . htmlspecialchars($anime['thumbnail']) . '" alt="' . htmlspecialchars($anime['title']) . '">';
                             echo '<h3>' . htmlspecialchars($anime['title']) . '</h3>';
                             echo '<p>' . htmlspecialchars($anime['description']) . '</p>';
+                            echo '</a>';
                             echo '</div>';
                          }
                     } else {
