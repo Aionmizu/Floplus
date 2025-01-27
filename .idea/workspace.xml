@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.1.1">
-      <change beforePath="$PROJECT_DIR$/components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.php" afterDir="false" />
+    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.1.2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1736769032700" duration="5080000" />
       <workItem from="1736853354096" duration="2972000" />
       <workItem from="1737968101194" duration="8951000" />
-      <workItem from="1737977157405" duration="8003000" />
+      <workItem from="1737977157405" duration="9421000" />
     </task>
     <task id="LOCAL-00001" summary="Projet V0.1">
       <option name="closed" value="true" />
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737985022842</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Projet V0.1.2">
+      <option name="closed" value="true" />
+      <created>1737986453564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737986453564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projet V0.1" />
     <MESSAGE value="Projet V0.1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projet V0.1.1" />
+    <MESSAGE value="Projet V0.1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projet V0.1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
