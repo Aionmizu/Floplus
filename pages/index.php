@@ -78,10 +78,12 @@ $comedie = $animeClass->getAnimesByGenre('Comédie');
                 <div class="content-cards">
                     <?php foreach ($pepites as $anime): ?>
                         <div class="card">
-                            <img src="../assets/images/<?php echo htmlspecialchars($anime['thumbnail']); ?>" alt="<?php echo htmlspecialchars($anime['title']); ?>">
-                            <h3><?php echo htmlspecialchars($anime['title']); ?></h3>
-                            <p><strong>Genres :</strong> <?php echo htmlspecialchars($anime['genres']); ?></p>
-                            <p><?php echo htmlspecialchars($anime['description']); ?></p>
+                            <a href="anime_detail.php?id=<?php echo $anime['id']; ?>" class="card-link">
+                                <img src="../assets/images/<?php echo htmlspecialchars($anime['thumbnail']); ?>" alt="<?php echo htmlspecialchars($anime['title']); ?>">
+                                <h3><?php echo htmlspecialchars($anime['title']); ?></h3>
+                                <p><strong>Genres :</strong> <?php echo htmlspecialchars($anime['genres']); ?></p>
+                                <p><?php echo htmlspecialchars($anime['description']); ?></p>
+                            </a>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -95,10 +97,12 @@ $comedie = $animeClass->getAnimesByGenre('Comédie');
                 <div class="content-cards">
                     <?php foreach ($action as $anime): ?>
                         <div class="card">
-                            <img src="../assets/images/<?php echo htmlspecialchars($anime['thumbnail']); ?>" alt="<?php echo htmlspecialchars($anime['title']); ?>">
-                            <h3><?php echo htmlspecialchars($anime['title']); ?></h3>
-                            <p><strong>Genres :</strong> <?php echo htmlspecialchars($anime['genres']); ?></p>
-                            <p><?php echo htmlspecialchars($anime['description']); ?></p>
+                            <a href="anime_detail.php?id=<?php echo $anime['id']; ?>" class="card-link">
+                                <img src="../assets/images/<?php echo htmlspecialchars($anime['thumbnail']); ?>" alt="<?php echo htmlspecialchars($anime['title']); ?>">
+                                <h3><?php echo htmlspecialchars($anime['title']); ?></h3>
+                                <p><strong>Genres :</strong> <?php echo htmlspecialchars($anime['genres']); ?></p>
+                                <p><?php echo htmlspecialchars($anime['description']); ?></p>
+                            </a>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -112,10 +116,12 @@ $comedie = $animeClass->getAnimesByGenre('Comédie');
                 <div class="content-cards">
                     <?php foreach ($comedie as $anime): ?>
                         <div class="card">
-                            <img src="../assets/images/<?php echo htmlspecialchars($anime['thumbnail']); ?>" alt="<?php echo htmlspecialchars($anime['title']); ?>">
-                            <h3><?php echo htmlspecialchars($anime['title']); ?></h3>
-                            <p><strong>Genres :</strong> <?php echo htmlspecialchars($anime['genres']); ?></p>
-                            <p><?php echo htmlspecialchars($anime['description']); ?></p>
+                            <a href="anime_detail.php?id=<?php echo $anime['id']; ?>" class="card-link">
+                                <img src="../assets/images/<?php echo htmlspecialchars($anime['thumbnail']); ?>" alt="<?php echo htmlspecialchars($anime['title']); ?>">
+                                <h3><?php echo htmlspecialchars($anime['title']); ?></h3>
+                                <p><strong>Genres :</strong> <?php echo htmlspecialchars($anime['genres']); ?></p>
+                                <p><?php echo htmlspecialchars($anime['description']); ?></p>
+                            </a>
                         </div>
                     <?php endforeach; ?>
                 </div>
