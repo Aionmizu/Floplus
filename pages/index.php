@@ -129,6 +129,57 @@ $comedie = $animeClass->getAnimesByGenre('Comédie');
         </section>
     </main>
 
+
+        <style>
+
+            body.white-theme {
+                background-color: white;
+                color: black;
+            }
+
+
+            button {
+                border: none;
+                padding: 10px 15px;
+                margin: 5px;
+                background-color: #007bff;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 14px;
+            }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+            body.white-theme .film-item {
+                background: #f4f4f4;
+                color: black;
+            }
+        </style>
+
+    <div>
+        <input type="text" id="filmTitleInput" placeholder="Entrez le titre du film" />
+        <button id="addFilmButton">Ajouter un film</button>
+        <button id="deleteFilmButton">Supprimer un film</button>
+        <button id="themeSwitchButton">Changer le thème</button>
+    </div>
+
+
+    <div id="filmList">
+        <h2>Liste des Films :</h2>
+        <ul id="filmContainer"></ul>
+    </div>
+
+
+    <div id="filmList">
+        <h2>Liste des Films :</h2>
+        <ul id="filmContainer"></ul>
+    </div>
+
+
+
     <!-- Pied de page -->
     <?php include '../components/footer.php'; ?>
 </body>
