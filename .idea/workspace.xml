@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.2.1 correction d'oublie mineur">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/classes/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/handlers/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/handlers/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="29d10d35-b1a3-4fce-94c0-188dd045c288" name="Changes" comment="Projet V0.2.1 correction d'oublie mineur" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +132,7 @@
       <workItem from="1742219610882" duration="5075000" />
       <workItem from="1742297151433" duration="1850000" />
       <workItem from="1742820926012" duration="338000" />
-      <workItem from="1742821355125" duration="2709000" />
+      <workItem from="1742821355125" duration="3089000" />
     </task>
     <task id="LOCAL-00001" summary="Projet V0.1">
       <option name="closed" value="true" />
@@ -214,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738055922507</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Projet V0.2.1 correction d'oublie mineur">
+      <option name="closed" value="true" />
+      <created>1742824418304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742824418304</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
